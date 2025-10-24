@@ -76,7 +76,7 @@ export const Showcase = () => {
       <div
         className={cn(
           "flex justify-center items-end h-full",
-          "bg-linear-to-t from-black to-50%"
+          "bg-linear-to-t from-gray-950 to-50%"
         )}
       >
         <div className="text-white font-outfit font-extralight text-center uppercase py-20 tracking-wider">
