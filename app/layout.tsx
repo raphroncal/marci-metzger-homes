@@ -6,6 +6,7 @@ import {
   Playfair_Display_SC,
 } from "next/font/google";
 import "./globals.css";
+import { Footer } from "./sections/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,6 +45,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${playfairSC.variable} ${outfit.variable} antialiased scrollbar-hidden`}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );
