@@ -16,11 +16,11 @@ const GithubIcon = () => (
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col gap-10 px-20 py-10 bg-[#2E876F] text-white font-outfit">
+    <div className="flex flex-col gap-32 px-20 py-10 bg-[#2E876F] text-white font-outfit">
       <div className="flex justify-between">
         {/* pages and socials */}
-        <div className="flex flex-col gap-20">
-          <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-4">
             <p>Home</p>
             <p>Listings</p>
             <p>About Us</p>
