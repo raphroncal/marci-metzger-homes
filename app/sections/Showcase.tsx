@@ -19,7 +19,7 @@ const ButtonPrev = ({ ...props }) => (
         stroke="#FFFFFF"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="1"
+        strokeWidth="2"
         d="M20 30L8 16L20 2"
       />
     </svg>
@@ -42,7 +42,7 @@ const ButtonNext = ({ ...props }) => (
         stroke="#FFFFFF"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="1"
+        strokeWidth="2"
         d="m12 30l12-14L12 2"
       />
     </svg>
