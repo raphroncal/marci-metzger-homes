@@ -1,9 +1,10 @@
 import { SearchBar } from "./components/SearchBar";
 import { Services } from "./sections/Services";
+import { Showcase } from "./sections/Showcase";
 
 export default function Home() {
   return (
-    <div className="flex flex-col scrollbar-hidden bg-fixed bg-cover bg-[url(/images/bg/bg-1.jpg)] bg-gray-600 bg-blend-multiply">
+    <div className="flex flex-col bg-fixed bg-cover bg-[url(/images/bg/bg-1.jpg)] bg-gray-600 bg-blend-multiply">
       <div className="flex flex-col items-center justify-between h-svh gap-10">
         <div className="flex align-middle self-center h-[100px]">
           <img width={300} src="/images/logo.png" alt="test" />
@@ -19,7 +20,7 @@ export default function Home() {
 
         <div className="h-[100px]" />
       </div>
-
+      <Showcase />
       <Services />
     </div>
   );
