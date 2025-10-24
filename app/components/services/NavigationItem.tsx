@@ -14,7 +14,7 @@ export const NavigationItem = ({
   return (
     <div
       className={cn(
-        "px-5 py-3 uppercase font-outfit font-extralight h-fit cursor-pointer",
+        "py-3 uppercase font-outfit font-extralight h-fit w-60 cursor-pointer text-center",
         "transition-all",
         currentItem === children && "border-b-4 border-black"
       )}
