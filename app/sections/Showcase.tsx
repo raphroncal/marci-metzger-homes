@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const ButtonPrev = ({ ...props }) => (
   <button
-    className="absolute left-0 top-0 h-svh px-12 transition-all hover:bg-linear-to-r hover:from-black/50 cursor-pointer"
+    className="absolute left-0 top-0 h-svh px-12 transition-colors bg-linear-to-r from-black/25 hover:from-black/50 cursor-pointer"
     {...props}
   >
     <svg
@@ -28,7 +28,7 @@ const ButtonPrev = ({ ...props }) => (
 
 const ButtonNext = ({ ...props }) => (
   <button
-    className="absolute right-0 top-0 h-svh px-12 transition-all hover:bg-linear-to-l hover:from-black/50 cursor-pointer"
+    className="absolute right-0 top-0 h-svh px-12 transition-colors bg-linear-to-l from-black/25 hover:from-black/50 ease-in-out cursor-pointer"
     {...props}
   >
     <svg
