@@ -21,8 +21,6 @@ export default function Home() {
       </div>
 
       <Services />
-
-      <div className="h-[1000px] text-white">hello</div>
     </div>
   );
 }
